@@ -241,6 +241,9 @@ public class Graphique extends javax.swing.JFrame {
 
             String k = inSocket.readLine();
             confirmationPanel.setText(k);
+            
+            //Jessica BESAGNI : J'ai testé, ca marche !!
+            
         } catch (IOException ex) {
             Logger.getLogger(Graphique.class.getName()).log(Level.SEVERE, null, ex);
         }
